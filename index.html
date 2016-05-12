@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Git Work Flow by fahidjavid</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Git Workflow</h1>
-      <h2 class="project-tagline">Inspiry Git Workflow</h2>
-      <a href="https://github.com/fahidjavid/inspirythemes" class="btn">View on GitHub</a>
-      <a href="https://github.com/fahidjavid/inspirythemes/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/fahidjavid/inspirythemes/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<head>
+  <meta charset="UTF-8">
+  <title>Git Workflow by InspiryThemes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+</head>
+<body>
+<section class="page-header">
+  <img class="logo" src="img/inspiry-logo.svg" onerror="this.onerror=null; this.src='img/inspiry-logo.png'">
+  <h1 class="project-name">Git Workflow</h1>
+  <h2 class="project-tagline">InspiryThemes</h2>
+</section>
 
-    <section class="main-content">
-    <p>This Git Workflow defines a branching model designed around the project to push changes on the Git Repository. This provides a robust framework for managing larger projects easily while working several people on the same projects.</p>
-    <h3>1. create a new branch for your changes</h3><code>git branch sample-branch</code>
-    <h3>2. check the list of available branches</h3><code>git branch</code>
-    <h3>3. switch to newly created branch</h3><code>git checkout sample-branch</code>
-    <h3>4. make some changes in code</h3>
-    <h3>5. check the effected files</h3><code>git status</code>
-    <h3>6. stage the effected files</h3><code>git add --all</code>
-    <h3>7. commit the staged files</h3><code>git commit -m "your message"</code>
-    <h3>8. switch back to development branch</h3><code>git checkout development</code>
-    <h3>9. update development branch from remote repository</h3><code>git pull origin development</code>
-    <h3>10. merge the sample-branch into development branch.</h3><code>git merge sample-branch</code>
-    <h3>11. push the changes in development branch to remote repository</h3><code>git push origin development</code>
-    <h3>12. once done and tested, delete the sample branch</h3><code>git branch -d sample-branch</code>
+<section class="main-content">
+
+  <p>This Git Workflow defines a branching model designed around the project to push changes on the Git Repository. This provides a robust framework for managing larger projects easily while working several people on the same projects.</p>
+  <ul>
+    <li><h3>1) Create a new branch for your changes</h3><code><span class="path">~</span><span class="prompt">$</span>git branch sample-branch</code></li>
+    <li><h3>2) Check the list of available branches</h3><code><span class="path">~</span><span class="prompt">$</span>git branch</code></li>
+    <li><h3>3) Switch to newly created branch</h3><code><span class="path">~</span><span class="prompt">$</span>git checkout sample-branch</code></li>
+    <li><h3>4) Make some changes in code</h3></li>
+    <li><h3>5) Check the effected files</h3><code><span class="path">~</span><span class="prompt">$</span>git status</code></li>
+    <li><h3>6) Stage the effected files</h3><code><span class="path">~</span><span class="prompt">$</span>git add --all</code></li>
+    <li><h3>7) Commit the staged files</h3><code><span class="path">~</span><span class="prompt">$</span>git commit -m "your message"</code></li>
+    <li><h3>8) Switch back to development branch</h3><code><span class="path">~</span><span class="prompt">$</span>git checkout development</code></li>
+    <li><h3>9) Update development branch from remote repository</h3><code><span class="path">~</span><span class="prompt">$</span>git pull origin development</code></li>
+    <li><h3>10) Merge the sample-branch into development branch.</h3><code><span class="path">~</span><span class="prompt">$</span>git merge sample-branch</code></li>
+    <li><h3>11) Push the changes in development branch to remote repository</h3><code><span class="path">~</span><span class="prompt">$</span>git push origin development</code></li>
+    <li><h3>12) Once done and tested, delete the sample branch</h3><code><span class="path">~</span><span class="prompt">$</span>git branch -d sample-branch</code></li>
+  </ul>
+
+  <footer class="site-footer">
+    <span class="site-footer-owner"><a href="https://github.com/fahidjavid/inspirythemes">Git Workflow</a> is maintained by <a href="http://inspirythemes.com">InspiryThemes</a>.</span>
+  </footer>
+
+</section>
 
 
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/fahidjavid/inspirythemes">Git Workflow</a> is maintained by <a href="http://inspirythemes.com">InspiryThemes</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+</body>
 </html>
