@@ -28,22 +28,71 @@
     The purpose of this workflow is to avoid conflicts while multiple engineers are pushing changes to same repository.
   </p>
   <ul>
-    <li><h3>1) Create a new branch for your changes</h3><code><span class="path">~</span><span class="prompt">$</span>git branch sample-branch</code></li>
-    <li><h3>2) Check the list of available branches</h3><code><span class="path">~</span><span class="prompt">$</span>git branch</code></li>
-    <li><h3>3) Switch to newly created branch</h3><code><span class="path">~</span><span class="prompt">$</span>git checkout sample-branch</code></li>
-    <li><h3>4) Make some changes in code</h3></li>
-    <li><h3>5) Check the effected files</h3><code><span class="path">~</span><span class="prompt">$</span>git status</code></li>
-    <li><h3>6) Stage the effected files</h3><code><span class="path">~</span><span class="prompt">$</span>git add --all</code></li>
-    <li><h3>7) Commit the staged files</h3><code><span class="path">~</span><span class="prompt">$</span>git commit -m "your message"</code></li>
-    <li><h3>8) Switch back to development branch</h3><code><span class="path">~</span><span class="prompt">$</span>git checkout development</code></li>
-    <li><h3>9) Update development branch from remote repository</h3><code><span class="path">~</span><span class="prompt">$</span>git pull origin development</code></li>
-    <li><h3>10) Merge the sample-branch into development branch.</h3><code><span class="path">~</span><span class="prompt">$</span>git merge sample-branch</code></li>
-    <li><h3>11) Push the changes in development branch to remote repository</h3><code><span class="path">~</span><span class="prompt">$</span>git push origin development</code></li>
-    <li><h3>12) Once done and tested, delete the sample branch</h3><code><span class="path">~</span><span class="prompt">$</span>git branch -d sample-branch</code></li>
+    <li>
+        <h3>1) Create a new branch for your changes</h3>
+        <code><span class="path">~</span><span class="prompt">$</span>git branch sample-branch</code>
+    </li>
+    
+    <li>
+      <h3>2) Check the list of available branches ( Only if you are not already aware of existing branches )</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git branch</code>
+    </li>
+    
+    <li>
+      <h3>3) Switch to newly created branch</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git checkout sample-branch</code>
+    </li>
+    
+    <li>
+      <h3>4) Make the required code changes and test your code.</h3>
+    </li>
+    
+    <li>
+      <h3>5) When you are satisfied with changes, Check the effected files</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git status</code>
+    </li>
+    
+    <li>
+      <h3>6) Stage all the effected files</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git add --all</code>
+    </li>
+    
+    <li>
+      <h3>7) Commit the staged files</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git commit -m "your message"</code>
+    </li>
+    
+    <li>
+      <h3>8) Switch back to development branch</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git checkout development</code>
+    </li>
+    
+    <li>
+      <h3>9) Update development branch from remote repository to have the latest version before merge</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git pull origin development</code>
+    </li>
+    
+    <li>
+      <h3>10) Merge the sample-branch into development branch.</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git merge sample-branch</code>
+    </li>
+    
+    <li>
+      <h3>11) Push the changes in development branch to remote repository</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git push origin development</code>
+    </li>
+    
+    <li>
+      <h3>12) Once done you can delete the sample branch in your local repository</h3>
+      <code><span class="path">~</span><span class="prompt">$</span>git branch -d sample-branch</code>
+    </li>
+    
   </ul>
 
+  <hr/>
+
   <footer class="site-footer">
-    <span class="site-footer-owner"><a href="https://github.com/fahidjavid/inspirythemes">Git Workflow</a> is maintained by <a href="http://inspirythemes.com">InspiryThemes</a>.</span>
+    <span class="site-footer-owner"><a href="https://github.com/InspiryThemes/git-workflow">Git Workflow</a> by <a href="http://inspirythemes.com">InspiryThemes</a>.</span>
   </footer>
 
 </section>
