@@ -122,6 +122,8 @@ span.prompt {
   opacity: 0.7;
   font-family: 'Montserrat', sans-serif; }
 
+.project-tagline a { color: #C1C3C6; }
+
 @media screen and (min-width: 64em) {
   .project-tagline {
     font-size: 1.25rem; } }
@@ -201,6 +203,9 @@ span.prompt {
   margin-top: 0; }
 .main-content ul li, .main-content ol li {
   margin-bottom: 2rem;
+}
+.main-content ul li p, .main-content ol li p {
+  margin-bottom: 0.5rem;
 }
 .main-content blockquote {
   padding: 0 1rem;
