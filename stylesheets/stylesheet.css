@@ -266,8 +266,14 @@ span.prompt {
   border-top: solid 1px #eff0f1; }
 
 .site-footer-owner {
-  display: block;
+  float: left;
   font-weight: bold; }
+
+.site-footer-social {
+  float: right; }
+
+.site-footer-social img {
+  width: 26px; }
 
 .site-footer-credits {
   color: #819198; }
@@ -283,3 +289,14 @@ span.prompt {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.clearfix {
+  *zoom: 1; }
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0; }
+
+.clearfix:after {
+  clear: both; }
