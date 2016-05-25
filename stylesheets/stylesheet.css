@@ -261,19 +261,15 @@ span.prompt {
     font-size: 1rem; } }
 
 .site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
-
-.site-footer-owner {
-  float: left;
-  font-weight: bold; }
-
-.site-footer-social {
-  float: right; }
+  padding: 2rem 0 1.7em;
+  text-align: center;
+  background: #323842;}
 
 .site-footer-social img {
-  width: 26px; }
+  width: 40px; }
+
+.site-footer-social a:nth-child(2) {
+  margin-left: 10px; }
 
 .site-footer-credits {
   color: #819198; }
